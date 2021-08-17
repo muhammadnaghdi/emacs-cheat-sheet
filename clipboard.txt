@@ -1,0 +1,11 @@
+** openconnect **
+sudo openconnect ck2.selfip.com:443
+km1649364
+61184
+
+** 30nama.com **
+muhammadnn
+mohamad0101
+
+** temp **
+
