@@ -79,7 +79,7 @@ M-x <ESC> <ESC> <ESC>	get out of recursive editing mode
 F1 ?  	  		open help
 M-x help		open help 
 
-C-h c {command}		show brief description of command
-C-h f {function}	describe a function
-C-h a {command}		command apropos
+C-h c			show brief description of command
+C-h f			describe a function
+C-h a			command apropos
 C-h i 			show info
