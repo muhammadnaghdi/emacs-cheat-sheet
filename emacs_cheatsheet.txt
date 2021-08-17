@@ -1,0 +1,85 @@
+C-<chr>			hold the CONTROL key while typing the character <chr>
+M-<chr>			hold the META or EDIT or ALT key down while typing <chr>
+
+C-h t			open tutorial
+
+C-x C-c			end Emacs session
+C-g 			quit partially entered command
+C-x k			kill buffer
+
+C-v			move forward one screenful
+M-v			move backward one screenful
+C-l			move the text around the cursor
+C-f			move forward a character
+C-b			move backward a character
+M-f			move forward a word
+M-b			move backward a word
+C-n			move to next line
+C-p			move to previous line
+C-a			move to beginning of line
+C-e			move to end of line
+M-a			move back to beginning of sentence
+M-e			move forward to end of sentence
+M-<			move to the beginning of the whole text
+M->			move to the end of the whole text
+
+C-u {arg}		give a numeric argument
+M-{arg}			give a numeric argument
+C-u 8 C-f 		move forward by 8 characters
+C-u 8 C-v		scroll by 8 lines
+
+C-x 1 			one window (i.e., kill all other windows) 		
+C-h k {command}		display command documentation
+
+<DEL>         		delete the character just before the cursor
+C-d	      		delete the next character after the cursor
+M-<DEL>      		kill the word immediately before the cursor
+M-d	     		kill the next word after the cursor
+C-k	     		kill from the cursor position to end of line
+M-k	     		kill to the end of the current sentence
+C-<SPC>	     		select a segment between the cursor and the starting position
+C-w	     		kill a segment
+C-y	     		yank the killed text
+M-y (afret C-y)	     	replace the yanked text with earlier kills
+
+C-/	     		undo changes
+C-_	     		undo changes
+C-x u	     		undo changes
+
+C-x C-f	     		find a file
+C-x C-s	     		save a file
+
+C-x C-b	     		list buffers
+C-x b	     		switch to a buffer
+C-x s	     		save some buffers
+
+C-z 			exit Emacs temporarily
+M-x replace-string	replace a string with another
+
+C-h m			view documentation about current mode
+M-x auto-fill-mode	toggle auto-fill mode
+M-q 			re-fill a paragraph
+
+C-s			search
+C-s			next occurrence
+C-r 	   		earlier occurrence
+<DEL> (afrer C-s)	earlier occurrence
+
+C-x 2 	     		split screen vertically
+C-x 3			split screen horizontally
+C-M-V			scroll second window
+C-x o			switch between windows
+C-x 4 C-f		find a file in next window
+
+C-x 5 2			new frame
+C-x 5 0			remove frame
+
+M-x <ESC> <ESC> <ESC>	get out of recursive editing mode
+
+F1 ?  	  		open help
+M-x help		open help 
+
+C-h c {command}		show brief description of command
+C-h f {function}	describe a function
+C-h a {command}		command apropos
+C-h i 			openS info
