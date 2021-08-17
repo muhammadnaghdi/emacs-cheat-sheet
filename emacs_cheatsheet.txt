@@ -82,4 +82,4 @@ M-x help		open help
 C-h c {command}		show brief description of command
 C-h f {function}	describe a function
 C-h a {command}		command apropos
-C-h i 			openS info
+C-h i 			show info
